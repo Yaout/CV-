@@ -1,0 +1,31 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    }
+body {
+    background-color: rgb(235, 224, 159);
+}
+h1 {
+     font-family: "courier New", monospace;
+     background-color: rgba(81, 129, 114, 0.133) width="20px" ;
+    }
+i#usu {
+    color: rgb(128, 47, 0);  
+}
+
+p i {
+    color: rgba(21, 222, 232, 0.579);
+}
+b {
+    color: pink;
+}
+p b { color: blue ;
+    background-color: mediumseagreen;
+
+}
+
+p b { color: violet !important; }
+p#intro {
+    font-size: 100%;
+}
+p {font-size: 75%;
+}
