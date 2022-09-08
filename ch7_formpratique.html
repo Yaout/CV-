@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+<body>
+    
+    <form action=
+"http://www.example.com/login.php" method="post" >
+
+<fieldset style="width:700px">
+    <legend> Your Details: </legend>
+        <label>Name: <br />
+            <input type="text" name="name" maxlength="10" placeholder="Username"/> 
+        </label> <br />
+        
+        <label>Email: <br />
+            <input type="email" name="email" placeholder="@email" /> </label> <br />
+        
+                
+</fieldset>
+
+<fieldset style="width:700px">
+    <legend> Your Review: </legend>
+    <p>
+        <label for="hear-about">
+        How did you hear about us? 
+        </label>
+        <select name="devices" id="hear-about">
+            <option value="google"> Google </option>
+            <option value="duckduckgo">Duckduckgo</option>
+            <option value="opera">Opera</option>
+            <option value="other">Other</option>
+            
+        </select>
+    </p>
+    <br />
+     
+   
+        Would you visit again? <br />
+
+        <input id="yes" type="radio" name="response" value="y" />
+        <label for="yes"> Yes</label>
+        <input id="no" type="radio" name="response" value="n" />
+        <label for="no">No</label>
+        <input id="maybe" type="radio" name="response" value="m" checked="checked" />
+        <label for="maybe">Maybe</label>
+        
+        
+        <p>
+           <label for="comments"> Comments: </label>
+            <br />
+            <textarea name="comments" cols="30"  rows="3" id="comments"> </textarea>
+        </p>
+        <label>
+        <input type="checkbox" name="sign" value="sign" checked="checked" /> 
+            Sign me up for email updates
+        </label>
+        <br />
+        <input type="submit" name="submit" value="Submit review" />
+
+       
+    </p>            
+</fieldset>
+</form>
+</body>
+</html>

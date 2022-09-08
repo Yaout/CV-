@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style type="text/css">
+    div {
+        width: 360px;
+        padding-bottom: 10px;
+    }
+    radio-button label {
+        float: none;
+    }
+    
+    .title {
+        float: left;
+        width: 100px;
+        text-align: right;
+        padding-right: 20px;
+    }
+    .submit {
+        text-align: right;
+    }
+    a {
+        cursor: auto;
+    }
+  </style>
+</head>
+<body>
+    <a href="https://www.reddit.com/">Reddit</a>
+   <div>
+   <label for="name" class="title">Name:</label>
+    <input type="text" id="name" name="name" />
+    </div>
+
+    <div>
+        <label for="email" class="title">Email:</label>
+        <input type="email" id="email" name="email">
+
+    </div>
+
+    <div class="radio-button">
+        <span class="title"">Gender:</span>
+        <input type="radio" id="male" name="gender" value="M" /> 
+        <label for="male">M</label>
+     
+        <input type="radio"  id="female" name="gender" value="F" />
+        <label for="female">F </label> 
+        
+
+    </div>
+    <div class="submit">
+        <input type="submit" id="submit" value="Register" />
+    </div>
+
+
+</body>
+</html>
